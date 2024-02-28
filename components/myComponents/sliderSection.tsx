@@ -31,7 +31,7 @@ export default function SliderSection() {
   return (
     <>
       {/* slider section */}
-      <section className="flex items-stretch justify-center w-screen h-full  ">
+      <section className="flex items-stretch justify-center w-screen aspect-video ">
         <Swiper
           slidesPerView={1}
           spaceBetween={30}
@@ -41,15 +41,15 @@ export default function SliderSection() {
           }}
           navigation={true}
           modules={[Pagination, Navigation]}
-          className="w-full f-full mx-auto object-cover">
+          className="w-full mx-auto object-cover aspect-video  h-[80vh]">
           {slider.map((item, index) => (
             <SwiperSlide
               key={index}
-              className="text-center bg-white flex justify-center items-center">
+              className="text-center bg-white aspect-video  flex justify-center items-center">
               <Image
                 width={1000}
                 height={1000}
-                className="w-full h-full object-cover "
+                className="w-full h-full aspect-video object-cover"
                 alt="NextUI hero Image with delay"
                 src={item.path}
                 // src="https://nextui-docs-v2.vercel.app/images/hero-card-complete.jpeg"
