@@ -31,7 +31,7 @@ export default function SliderSection() {
   return (
     <>
       {/* slider section */}
-      <section className="flex items-stretch justify-center w-screen aspect-video ">
+      <section className="flex items-stretch justify-center w-screen aspect-video h-[80vh]">
         <Swiper
           slidesPerView={1}
           spaceBetween={30}
@@ -41,7 +41,7 @@ export default function SliderSection() {
           }}
           navigation={true}
           modules={[Pagination, Navigation]}
-          className="w-full mx-auto object-cover aspect-video  h-[80vh]">
+          className="w-full mx-auto object-cover aspect-video  ">
           {slider.map((item, index) => (
             <SwiperSlide
               key={index}
