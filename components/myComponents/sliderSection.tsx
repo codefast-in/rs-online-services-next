@@ -47,8 +47,8 @@ export default function SliderSection() {
               key={index}
               className="text-center bg-white aspect-video  flex justify-center items-center">
               <Image
-                width={1000}
-                height={1000}
+                width={100000000000000}
+                height={100000000000000}
                 className="w-full h-full aspect-video object-cover"
                 alt="NextUI hero Image with delay"
                 src={item.path}
