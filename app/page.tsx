@@ -11,7 +11,7 @@ const isLogin = true;
 export default function Home() {
   return (
     <>
-      {/* <SliderSection /> */}
+      <SliderSection />
       <ServiesSection />
       <TrendyProducts />
       <NewArrival />
