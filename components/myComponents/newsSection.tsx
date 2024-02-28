@@ -42,7 +42,7 @@ function NewsSection() {
       </div>
       <div className="gap-10 grid grid-cols-1 sm:grid-cols-2  mt-10 px-8">
         {news.slice(0, 6).map((data: any, index: number) => (
-          <Card className="pt-4 " isBlurred isFooterBlurred>
+          <Card key={index} className="pt-4 " isBlurred isFooterBlurred>
             <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
               <p className="text-tiny uppercase font-bold">
                 {data.publishedAt.slice(0, 10)}

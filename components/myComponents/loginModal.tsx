@@ -112,7 +112,7 @@ export default function Login() {
                   <Google /> Login With Google
                 </Button>
                 <span>
-                  Don't have account
+                  Don&apos;t have account
                   <UserRegistration />
                 </span>
               </ModalFooter>
