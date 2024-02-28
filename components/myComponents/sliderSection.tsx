@@ -36,10 +36,11 @@ export default function SliderSection() {
           slidesPerView={1}
           spaceBetween={30}
           loop={true}
+          draggable={true}
           pagination={{
             clickable: true,
           }}
-          navigation={true}
+          // navigation={true}
           modules={[Pagination, Navigation]}
           className="w-full mx-auto object-cover aspect-video  ">
           {slider.map((item, index) => (
