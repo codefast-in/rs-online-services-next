@@ -7,7 +7,7 @@ import NewArrival from "@/components/myComponents/newArrival";
 
 import NewsSection from "@/components/myComponents/newsSection";
 
-const isLogin = true;
+const isLogin = false;
 export default function Home() {
   return (
     <>
